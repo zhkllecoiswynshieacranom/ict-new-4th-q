@@ -1,0 +1,111 @@
+
+body {
+    margin: 0;
+    font-family: Tahoma, Arial, sans-serif;
+    background: url("https://i.pinimg.com/originals/a5/54/39/a55439bab1bb6d783062ab8eed0164f9.gif")
+        no-repeat center center fixed;
+    background-size: cover;
+    color: #003333;
+}
+
+header {
+    background: linear-gradient(to right, #00c9a7, #00b4db);
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    text-shadow: 1px 1px 2px #008080;
+}
+
+header p {
+    font-style: italic;
+    margin-top: 8px;
+}
+
+nav {
+    background-color: #008b8b;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a:link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:visited {
+    color: #e0ffff;
+}
+
+nav a:hover {
+    background-color: #b2f0e8;
+    color: #003333;
+    padding: 6px 12px;
+    border-radius: 12px;
+}
+
+nav a:active {
+    color: pink;
+}
+
+.box {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px 50px;
+    background-color: rgba(240, 255, 253, 0.6);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 6px 15px rgba(0, 168, 168, 0.25);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.box:hover {
+    box-shadow: 0 0 25px #cffffa;
+    transform: translateY(-3px);
+}
+
+.post span {
+    color: #008b8b;
+    font-weight: bold;
+}
+
+.post img {
+    max-width: 400px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.gallery img {
+    width: 250px;
+    margin: 12px;
+    border-radius: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+.highlight {
+    color: #191970;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #00a8a8;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 40px;
+}
